@@ -18,7 +18,7 @@ name = input("What is your good name? ")
 year = int(2020)
 dob = int(input("Hi {0},Please provide your Date of Birth: ".format(name)))
 age = year - dob
-print ("You are {0} years old {1}.".format(age,name))
+print("You are {0} years old {1}.".format(age,name))
 
 if 18 <= age < 31:
     print ("{0}, Welcome to the luxury holiday. This package is just for the people like you".format(name))
