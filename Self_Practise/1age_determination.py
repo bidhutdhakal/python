@@ -27,3 +27,32 @@ else:
     print("Sorry {0}, unfortunately our package is age restriction from 18-31".format(name))
 
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+import random
+highest = 100
+answer = random.randint(1, highest)
+print (answer)
+
+print ("Please guess the number between 1 to {}.".format(highest))
+guess = int(input("Gussing number is: " ))
+
+
+if guess == answer:
+    print ("Congratz, you got it the very first time")
+
+else:
+    if guess > answer:
+        print("Please guess a lower number")
+
+    else:
+        print("Please guess the higher number")
+
+    guess = int(input("Gussing number is: " ))
+
+    if guess > answer:
+        print("Please guess a lower number")
+
+    else:
+        print("Please guess the higher number")
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~6~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
